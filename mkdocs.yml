@@ -1,0 +1,68 @@
+site_name: Dawncord
+site_url: https://dawncord.github.io/dawncord-web/
+site_author: Dmitry Gulyaev
+
+theme:
+  features:
+    - navigation.tabs
+    - navigation.footer
+    - toc.integrate
+    - content.code.copy
+  name: material
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  icon:
+    repo: fontawesome/brands/github
+
+repo_name: Dawncord
+repo_url: https://github.com/dawncord/Dawncord
+
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/dimas4ek
+      name: github
+    - icon: fontawesome/brands/telegram 
+      link: https://t.me/dimas4ek
+      name: discord
+    - icon: fontawesome/brands/discord 
+      link: https://discordapp.com/users/305240921019121664
+      name: telegram
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Basic usage:
+    - Initialize your bot: usage/initialize.md
+    - Interactions: usage/interactions.md
+    - Lambda: usage/lambda.md
+    - Gateway Intents: usage/intents.md
+  - API Reference: https://javadoc.io/doc/io.github.dawncord/Dawncord/latest/index.html
+
+copyright: Copyright &copy; 2024 Dmitry Gulyaev

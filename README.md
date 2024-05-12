@@ -2,7 +2,7 @@
 
 This repository hosts the documentation website for [Dawncord](https://github.com/Dawncord/Dawncord), a Java library for building Discord bots.
 
-To view the documentation, visit the website [here](https://dawncord.github.io/dawncord-web).
+To view the documentation, visit the website [here](https://dawncord.github.io).
 
 ## Contributing
 
